@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
 # Load environment variables
-load_dotenv(dotenv_path='/Users/berkayakisik/Desktop/Student_codes/clovebases-student-code/07_week/data/token.env')
+load_dotenv(dotenv_path='/Users/berkayakisik/Desktop/dashboard_cb/dashboard_cb/token.env')
 
 # Retrieve environment variables
 weather_api = os.getenv('weatherapi')
